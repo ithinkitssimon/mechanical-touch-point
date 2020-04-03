@@ -1,0 +1,84 @@
+
+(session TouchPointV1.ses
+  (base_design TouchPointV1.dsn)
+  (placement
+    (resolution um 10)
+    (component "TouchPointV1:AVX-709296001017006"
+      (place J1 487500 -497250 back 90)
+    )
+    (component "TouchPointV1:AVX-709296001017006::1"
+      (place J2 512500 -497750 back 90)
+    )
+    (component "TouchPointV1:CK-ATS2D1G_NC_LFS"
+      (place SW1 500000 -500000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.4)-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J1-Pad1)"
+        (wire
+          (path B.Cu 7500
+            487500 -525000
+            487500 -507832
+          )
+        )
+        (wire
+          (path F.Cu 7500
+            500000 -535000
+            487500 -522500
+            487500 -507832
+          )
+        )
+        (wire
+          (path B.Cu 7500
+            487500 -470000
+            487500 -507832
+          )
+        )
+        (via "Via[0-1]_800:400_um" 487500 -507832
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 7500
+            500000 -465000
+            512500 -477500
+            512500 -482110
+          )
+        )
+        (wire
+          (path B.Cu 7500
+            512500 -470000
+            512500 -482110
+          )
+        )
+        (wire
+          (path B.Cu 7500
+            512500 -525500
+            512500 -482110
+          )
+        )
+        (via "Via[0-1]_800:400_um" 512500 -482110
+        )
+      )
+    )
+  )
+)
