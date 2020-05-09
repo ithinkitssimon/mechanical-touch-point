@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:TouchPointV1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -21,7 +20,8 @@ P 4750 3500
 F 0 "SW1" H 4750 3715 50  0000 C CNN
 F 1 "SW_Push_Open" H 4750 3624 50  0000 C CNN
 F 2 "TouchPointV1:CK-ATS2D1G_NC_LFS" H 4750 3700 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/60/ats-1100738.pdf" H 4750 3700 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/2058/ats.pdf" H 4750 3700 50  0001 C CNN
+F 4 "https://www.mouser.co.uk/ProductDetail/CK/ATS2D1G-NC-LFS?qs=sGAEpiMZZMsqIr59i2oRcmXchHNNTZljaavd%252BuNBLQw%3D" H 4750 3500 50  0001 C CNN "Supplier"
 	1    4750 3500
 	1    0    0    -1  
 $EndComp
@@ -45,7 +45,8 @@ P 3850 3500
 F 0 "J1" H 3742 3275 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 3742 3366 50  0000 C CNN
 F 2 "TouchPointV1:AVX-709296001017006" H 3850 3500 50  0001 C CNN
-F 3 "~" H 3850 3500 50  0001 C CNN
+F 3 "http://datasheets.avx.com/Poke_Home_Single_70-9296.pdf" H 3850 3500 50  0001 C CNN
+F 4 "https://www.mouser.co.uk/ProductDetail/AVX/709296001017006?qs=%2Fha2pyFadujA0%2F3H50FFv3Plo5iLpRwpVWaM5Vwny%252BL6xPx4HRYF6pzqiQFQbtvz" H 3850 3500 50  0001 C CNN "Supplier"
 	1    3850 3500
 	-1   0    0    1   
 $EndComp
@@ -56,7 +57,8 @@ P 5800 3500
 F 0 "J2" H 5692 3275 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 5692 3366 50  0000 C CNN
 F 2 "TouchPointV1:AVX-709296001017006" H 5800 3500 50  0001 C CNN
-F 3 "~" H 5800 3500 50  0001 C CNN
+F 3 "http://datasheets.avx.com/Poke_Home_Single_70-9296.pdf" H 5800 3500 50  0001 C CNN
+F 4 "https://www.mouser.co.uk/ProductDetail/AVX/709296001017006?qs=%2Fha2pyFadujA0%2F3H50FFv3Plo5iLpRwpVWaM5Vwny%252BL6xPx4HRYF6pzqiQFQbtvz" H 5800 3500 50  0001 C CNN "Supplier"
 	1    5800 3500
 	1    0    0    1   
 $EndComp
